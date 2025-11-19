@@ -1,0 +1,61 @@
+function ContactUs() {
+  return (
+    <div className="mx-auto py-6 px-6">
+      <div className="text-center mb-20">
+        <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-cyan-50 rounded-2xl p-16 mb-12">
+          <h1 className="text-6xl font-bold mb-8">
+            <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+              Innovative
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+              Reliable
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
+              Collaborative
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
+              Excellence
+            </span>
+          </h1>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
+          </div>
+
+          <div className="space-y-8">
+            <p className="text-gray-700 leading-relaxed text-lg mb-10">
+              We're here to help you bring your ideas to life. Reach out to us
+              for consultations, project discussions, or general inquiries.
+            </p>
+
+            <div className="space-y-6 text-lg text-gray-800">
+              <p>
+                <strong>WhatsApp:</strong>{" "}
+                <a href="https://wa.me/6285259380265">+62 852-5938-0265</a>
+              </p>
+              <p>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:sukmatechindonesia@gmail.com">
+                  sukmatechindonesia@gmail.com
+                </a>
+              </p>
+              <p>
+                <strong>Founder:</strong> Indra Rudianto
+              </p>
+              <p>
+                <strong>Address:</strong> Ngawi, East Java, Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ContactUs;
