@@ -48,6 +48,9 @@ function Layout() {
           >
             Contact Us
           </Link>
+          <p className="text-xs text-gray-400 pt-4">
+            © {new Date().getFullYear()} Sukma Tech Indonesia
+          </p>
         </div>
       </aside>
 

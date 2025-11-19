@@ -28,8 +28,8 @@ function Home() {
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-blue-900/20"></div>
-        <h1 className="text-white text-6xl font-bold flex items-center gap-4 relative z-10 drop-shadow-2xl">
-          <span className="text-5xl animate-pulse">↻</span> Sukma Tech
+        <h1 className="text-white text-6xl font-bold flex items-center justify-center gap-4 relative z-10 drop-shadow-2xl">
+          <span className="text-7xl animate-pulse">●</span> Sukma Tech
         </h1>
       </div>
 

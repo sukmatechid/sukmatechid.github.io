@@ -35,6 +35,9 @@ function ContactUs() {
 
             <div className="space-y-6 text-lg text-gray-800">
               <p>
+                <strong>Company:</strong> Sukma Tech Indonesia
+              </p>
+              <p>
                 <strong>WhatsApp:</strong>{" "}
                 <a href="https://wa.me/6285259380265">+62 852-5938-0265</a>
               </p>
@@ -54,6 +57,13 @@ function ContactUs() {
           </div>
         </div>
       </div>
+
+      <footer className="text-center py-8 text-gray-500 text-sm border-t border-gray-200 mt-12">
+        <p>
+          © {new Date().getFullYear()} Sukma Tech Indonesia. All rights
+          reserved.
+        </p>
+      </footer>
     </div>
   );
 }
