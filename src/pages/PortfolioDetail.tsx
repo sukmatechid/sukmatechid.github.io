@@ -7,7 +7,7 @@ function PortfolioDetail() {
 
   if (!project) {
     return (
-      <div className="min-h-screen bg-white px-10 py-20 max-w-5xl mx-auto">
+      <div className="min-h-screen bg-white px-10 py-20 max-w-5xl mx-auto mt-4 mb-16">
         <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
         <Link
           to="/portfolio"
@@ -33,7 +33,7 @@ function PortfolioDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-white px-10 py-20 max-w-6xl mx-auto">
+    <div className="min-h-screen bg-white px-10 py-20 max-w-6xl mx-auto mt-4 mb-16">
       <Link
         to="/portfolio"
         className="group inline-flex items-center mb-8 text-gray-600 transition-all"

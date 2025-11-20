@@ -1,9 +1,9 @@
 function ContactUs() {
   return (
-    <div className="mx-auto py-6 px-6">
+    <div className="mx-auto py-6 px-6 max-w-6xl min-h-screen mt-16 lg:mt-0 mb-16">
       <div className="text-center mb-20">
-        <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-cyan-50 rounded-2xl p-16 mb-12">
-          <h1 className="text-6xl font-bold mb-8">
+        <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-cyan-50 rounded-2xl p-8 md:p-16 mb-12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
               Innovative
             </span>
@@ -24,16 +24,16 @@ function ContactUs() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">Contact Us</h2>
           </div>
 
           <div className="space-y-8">
-            <p className="text-gray-700 leading-relaxed text-lg mb-10">
+            <p className="text-gray-700 leading-relaxed text-base md:text-lg mb-10">
               We're here to help you bring your ideas to life. Reach out to us
               for consultations, project discussions, or general inquiries.
             </p>
 
-            <div className="space-y-6 text-lg text-gray-800">
+            <div className="space-y-6 text-base md:text-lg text-gray-800">
               <p>
                 <strong>Company:</strong> Sukma Tech Indonesia
               </p>
@@ -48,7 +48,7 @@ function ContactUs() {
                 </a>
               </p>
               <p>
-                <strong>Founder:</strong> Indra Rudianto
+                <strong>Contact Person:</strong> Indra Rudianto
               </p>
               <p>
                 <strong>Address:</strong> Ngawi, East Java, Indonesia

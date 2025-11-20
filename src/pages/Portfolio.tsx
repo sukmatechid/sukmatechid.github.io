@@ -3,7 +3,7 @@ import { projects } from "../stores/projects";
 
 export function Portfolio() {
   return (
-    <div className="min-h-screen bg-white px-10 py-16 max-w-6xl mx-auto">
+    <div className="min-h-screen bg-white px-10 py-16 max-w-6xl mx-auto mt-8 mb-16">
       <h1 className="text-5xl font-bold mb-10">Our Portfolio</h1>
       <p className="text-gray-700 leading-relaxed text-lg max-w-3xl mb-16">
         Here are some of the impactful digital products we've crafted for

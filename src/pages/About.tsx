@@ -19,7 +19,7 @@ const expertiseItems = [
 
 export function About() {
   return (
-    <div className="min-h-screen bg-white px-10 py-16 max-w-6xl mx-auto">
+    <div className="min-h-screen bg-white px-10 py-16 max-w-6xl mx-auto mt-8 mb-16">
       <h1 className="text-5xl font-bold mb-10">About Us</h1>
 
       <div className="space-y-16">
