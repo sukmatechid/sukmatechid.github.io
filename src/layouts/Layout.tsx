@@ -10,7 +10,12 @@ function Layout() {
       <aside className="w-full lg:w-64 border-b lg:border-b-0 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-row lg:flex-col justify-between items-center lg:items-start fixed left-0 top-0 lg:h-screen bg-white z-10">
         <div className="flex flex-row lg:flex-col items-center lg:items-start w-full lg:w-auto">
           <div className="mb-0 lg:mb-10 mr-auto lg:mr-0">
-            <span className="font-semibold text-lg">Sukma Tech</span>
+            <Link
+              to="/"
+              className="font-semibold text-lg hover:text-gray-700 transition-colors"
+            >
+              Sukma Tech
+            </Link>
           </div>
 
           <button
