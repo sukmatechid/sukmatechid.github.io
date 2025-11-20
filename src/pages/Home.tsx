@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <div
-        className="w-full h-screen flex items-center justify-center relative overflow-hidden"
+        className="w-full h-screen flex items-center justify-center relative overflow-hidden bg-[length:400%_400%]"
         style={{
           background: `linear-gradient(${gradientPosition}deg, 
               #667eea 0%, 
@@ -23,7 +23,6 @@ function Home() {
               #f093fb 50%, 
               #4facfe 75%, 
               #00f2fe 100%)`,
-          backgroundSize: "400% 400%",
           transition: "background 0.5s ease",
         }}
       >
