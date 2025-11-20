@@ -34,15 +34,15 @@ function Home() {
         </h1>
       </div>
 
-      <section className="px-20 py-16 grid grid-cols-2 gap-16">
+      <section className="px-6 md:px-12 lg:px-20 py-12 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div>
-          <h2 className="text-5xl font-extrabold leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
             Crafting Digital
             <br />
             Excellence
           </h2>
         </div>
-        <div className="text-gray-700 leading-relaxed text-lg space-y-6">
+        <div className="text-gray-700 leading-relaxed text-base md:text-lg space-y-4 md:space-y-6">
           <p>
             At Sukma Tech Indonesia, we transform your vision into powerful
             digital solutions. From custom websites and robust backend systems
@@ -58,7 +58,7 @@ function Home() {
           <div className="pt-4">
             <Link
               to="/contact"
-              className="inline-block px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300"
+              className="inline-block px-6 md:px-8 py-2.5 md:py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300"
             >
               Contact Us
             </Link>
