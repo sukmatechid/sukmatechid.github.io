@@ -189,7 +189,7 @@ export const projects: ProjectDetail[] = [
     slug: "open-source-libraries",
     title: "Open Source Libraries",
     description:
-      "Collection of open source packages published on PyPI for scientific and monitoring applications.",
+      "Collection of open source packages.",
     image: "https://i.postimg.cc/yYZQHWGf/gh.png",
     problem:
       "The need to contribute to the open source community by developing and publishing a suite of Python libraries addressing specific needs.",
