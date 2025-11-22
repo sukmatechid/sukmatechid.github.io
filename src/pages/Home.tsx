@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <div
-        className="w-full h-screen flex items-center justify-center relative overflow-hidden bg-[length:400%_400%]"
+        className="w-full h-128 flex items-center justify-center relative overflow-hidden bg-[length:400%_400%] mt-16 lg:mt-0"
         style={{
           background: `linear-gradient(${gradientPosition}deg, 
               #667eea 0%, 
@@ -27,7 +27,7 @@ function Home() {
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-blue-900/20"></div>
-        <h1 className="text-white lg:text-6xl text-4xl font-bold flex items-center justify-center gap-4 relative z-10 drop-shadow-2xl">
+        <h1 className="text-white lg:text-6xl text-4xl font-bold flex items-center gap-4 relative z-10 drop-shadow-2xl">
           <span className="text-4xl lg:text-7xl animate-pulse">●</span> Sukma
           Tech
         </h1>

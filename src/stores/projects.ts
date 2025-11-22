@@ -17,7 +17,8 @@ export const projects: ProjectDetail[] = [
     title: "WaveView",
     description:
       "A web-based seismic waveform visualization and analysis platform designed for real-time monitoring and research collaboration.",
-    image: "https://i.postimg.cc/cHx21Z3L/5.png",
+    image:
+      "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/waveview.png",
     problem:
       "Seismologists and volcano monitoring teams needed a modern, real-time tool to visualize and analyze seismic waveforms efficiently. Traditional desktop applications were limited in accessibility and collaboration features.",
     solution:
@@ -50,7 +51,8 @@ export const projects: ProjectDetail[] = [
     title: "Davis",
     description:
       "A comprehensive web application providing charts and analytics for Merapi Volcano monitoring data.",
-    image: "https://i.postimg.cc/qqL7hpbm/4.png",
+    image:
+      "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/davis.png",
     problem:
       "Volcano monitoring teams needed an accessible way to visualize and analyze complex monitoring data from multiple sources. Traditional methods made it difficult to identify patterns and trends quickly.",
     solution:
@@ -79,7 +81,7 @@ export const projects: ProjectDetail[] = [
     title: "BMA",
     description:
       "Web services providing API endpoints to query Merapi monitoring data including seismicity, deformations, geochemistry, and weather.",
-    image: "https://i.postimg.cc/wvYxw1n5/2.png",
+    image: "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/bma.png",
     problem:
       "BPPTKG faced challenges with maintaining and scaling existing applications against growing features and data volumes. The lack of consistent application interfaces meant repetitive code for every application accessing the databases. Quick data analysis and integration with other systems were difficult without a unified API layer.",
     solution:
@@ -108,7 +110,8 @@ export const projects: ProjectDetail[] = [
     title: "Chart Studio",
     description:
       "A modern web application for creating interactive monitoring data visualizations with support for multiple data sources and customizable chart configurations.",
-    image: "https://i.postimg.cc/ryJy9FjN/3.png",
+    image:
+      "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/chart-studio.png",
     problem:
       "Scientists and monitoring teams needed a flexible tool to visualize and correlate multiple monitoring parameters across the same time range. Existing visualization tools lacked the flexibility to dynamically configure chart series, combine different data types, and automatically update visualizations based on user interactions.",
     solution:
@@ -138,7 +141,8 @@ export const projects: ProjectDetail[] = [
     title: "EQLine (Product Quality Smart Apps)",
     description:
       "A comprehensive web application designed to streamline the management of product testing at PT Astra Honda Motor.",
-    image: "https://i.postimg.cc/8cWhqfC7/eqline.png",
+    image:
+      "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/eqline.png",
     problem:
       "PT Astra Honda Motor needed an efficient system to manage the entire workflow of product testing. Manual processes for creating tests, assigning them to users, tracking completion, and compiling results were time-consuming, error-prone, and lacked centralized oversight. This inefficiency hindered the ability to maintain quality standards and meet testing schedules.",
     solution:
@@ -170,7 +174,8 @@ export const projects: ProjectDetail[] = [
     title: "Strain Data Analyzer",
     description:
       "Desktop application designed for comprehensive strain data analysis in automotive engineering.",
-    image: "https://i.postimg.cc/63BJ7nkw/81d08047-451d-4cec-ad92-ec1db3a7135a.jpg",
+    image:
+      "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/sda.jpeg",
     problem:
       "Engineers at Astra Honda Motor faced challenges analyzing large volumes of strain data from various tests. Manual analysis was slow and made it difficult to identify critical stress points.",
     solution:
@@ -188,9 +193,8 @@ export const projects: ProjectDetail[] = [
   {
     slug: "open-source-libraries",
     title: "Open Source Libraries",
-    description:
-      "Collection of open source packages.",
-    image: "https://i.postimg.cc/yYZQHWGf/gh.png",
+    description: "Collection of open source packages.",
+    image: "https://sukmatechid-public.s3.ap-southeast-1.amazonaws.com/gh.png",
     problem:
       "The need to contribute to the open source community by developing and publishing a suite of Python libraries addressing specific needs.",
     solution:

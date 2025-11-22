@@ -1,9 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../stores/projects";
+import { useState } from "react";
 
 function PortfolioDetail() {
   const { slug } = useParams<{ slug: string }>();
   const project = projects.find((p) => p.slug === slug);
+  const [imageError, setImageError] = useState(false);
 
   if (!project) {
     return (
@@ -58,12 +60,25 @@ function PortfolioDetail() {
 
       {project.image && (
         <div className="w-full aspect-[3360/1694] bg-gray-100 rounded-2xl overflow-hidden mb-16 hover:shadow-md border border-gray-200 max-h-[520px] transition-shadow cursor-pointer">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-full object-cover"
-            loading="lazy"
-          />
+          {!imageError ? (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              onError={() => setImageError(true)}
+              crossOrigin="anonymous"
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+              <div className="text-center">
+                <svg className="w-20 h-20 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p className="text-gray-500">Image unavailable</p>
+              </div>
+            </div>
+          )}
         </div>
       )}
 
