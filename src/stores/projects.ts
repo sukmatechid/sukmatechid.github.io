@@ -137,12 +137,12 @@ export const projects: ProjectDetail[] = [
     slug: "eqline",
     title: "EQLine (Product Quality Smart Apps)",
     description:
-      "A comprehensive web application designed to streamline the management of EQ tests at PT Astra Honda Motor.",
+      "A comprehensive web application designed to streamline the management of product testing at PT Astra Honda Motor.",
     image: "https://i.postimg.cc/8cWhqfC7/eqline.png",
     problem:
-      "PT Astra Honda Motor needed an efficient system to manage the entire workflow of EQ tests. Manual processes for creating tests, assigning them to users, tracking completion, and compiling results were time-consuming, error-prone, and lacked centralized oversight. This inefficiency hindered the ability to maintain quality standards and meet testing schedules.",
+      "PT Astra Honda Motor needed an efficient system to manage the entire workflow of product testing. Manual processes for creating tests, assigning them to users, tracking completion, and compiling results were time-consuming, error-prone, and lacked centralized oversight. This inefficiency hindered the ability to maintain quality standards and meet testing schedules.",
     solution:
-      "We developed EQLine, a comprehensive web application that automates the entire EQ test workflow. The system enables test creation, user assignment, progress tracking, and automated result compilation and presentation. By digitizing and centralizing the process, EQLine enhances efficiency, accuracy, and provides real-time visibility into testing operations.",
+      "We developed EQLine, a comprehensive web application that automates the entire product testing workflow. The system enables test creation, user assignment, progress tracking, and automated result compilation and presentation. By digitizing and centralizing the process, EQLine enhances efficiency, accuracy, and provides real-time visibility into testing operations.",
     technologies: [
       "Django",
       "TimeScaleDB",
@@ -156,7 +156,7 @@ export const projects: ProjectDetail[] = [
       "Vuetify",
     ],
     results: [
-      "Streamlined EQ test workflow from creation to completion",
+      "Streamlined product testing workflow from creation to completion",
       "Automated test assignment and tracking system",
       "Real-time visibility into test progress and results",
       "Improved accuracy in test result compilation",
